@@ -1,0 +1,25 @@
+
+body{
+    background-color: #212529;
+    color: #fff;
+    margin: 0%;
+}
+
+header{
+    background-color:black;
+}
+
+nav{
+    position: relative;
+    text-align: right;
+    padding: 1.7% 1.7%; 
+    padding-right: 2%;
+    font-size: 1.7vw;
+}
+
+.home-title{
+    position: relative;
+    text-align: left;
+    margin-block: 0%;
+    font-size: 1.7vw;
+}
