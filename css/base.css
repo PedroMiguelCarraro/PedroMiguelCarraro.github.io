@@ -1,3 +1,7 @@
+:root{
+    --bg: #212529;
+    --fg:#50585f;
+}
 
 body{
     background-color: #212529;
@@ -5,21 +9,20 @@ body{
     margin: 0%;
 }
 
-header{
-    background-color:black;
+.fist-box{
+    background-color: var(--fg);
+	width: 280px;
+    padding-left: 30px;
+	/*padding-right: 40px;*/
+	margin: 0;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+
 }
 
-nav{
-    position: relative;
-    text-align: right;
-    padding: 1.7% 1.7%; 
-    padding-right: 2%;
-    font-size: 1.7vw;
+.title{
+    font-size: 60px;
+    align-items: center;
 }
 
-.home-title{
-    position: relative;
-    text-align: left;
-    margin-block: 0%;
-    font-size: 1.7vw;
-}
