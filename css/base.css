@@ -9,20 +9,37 @@ body{
     margin: 0%;
 }
 
-.fist-box{
+.t-box{
     background-color: var(--fg);
-	width: 280px;
-    padding-left: 30px;
-	/*padding-right: 40px;*/
-	margin: 0;
+	width: 15%;
+    padding: 0px 15px;
+	margin: 0 auto;
 	position: absolute;
-	top: 30%;
-	left: 40%;
+    top: 15%;
+	left: 0px;
+    right: 0px;
+    border-radius: 25px;
+}
 
+.m-box{
+    background-color: var(--fg);
+	width: 15%;
+    padding: 0px 15px;
+	margin: 0 auto;
+	position: absolute;
+    top: 50%;
+	left: 0px;
+    right: 0px;
+    border-radius: 25px;
 }
 
 .title{
-    font-size: 60px;
-    align-items: center;
+    font-size: 60px;    
+    text-align: center;
+}
+
+.main{
+    font-size: 25px;    
+    text-align: justify;
 }
 
